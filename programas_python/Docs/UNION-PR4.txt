@@ -1,0 +1,57 @@
+Es un modelo de diseño de software en el que las tareas se reparten entre los 
+proveedores de recursos o servicios, llamados servidores y los demandantes, 
+llamados clientes. Un cliente realiza peticiones al servidor, quien le da respuesta.
+Se basa en un modelo de aplicación distribuida.
+
+Se tienen ventajas de tipo organizativo debido a la centralización de la gestión de 
+la información y la separación de responsabilidades, lo que facilita y clarifica el 
+diseño del sistema.
+
+La separación entre cliente y servidor es una separación de tipo lógico, donde el 
+servidor no se ejecuta necesariamente sobre una sola maquina ni es necesariamente 
+un solo programa.
+
+La interacción entre cliente y servidor se describe a menudo usando diagramas de 
+secuencia. Es importante que los clientes no interactúen entre si ni que lo hagan 
+clientes de capas bajas con otros de capas mas altas, por eso todo pasa por el 
+servidor.
+
+Algunos ejemplos de aplicaciones que usan el modelo cliente-servidor son, por 
+ejemplo, un servidor de impresión o la World Wide Web.
+
+Es una red de ordenadores en la que todos o algunos aspectos funcionan sin clientes 
+ni servidores fijos, sino una serie de nodos que se comportan como iguales entre sí, 
+actuando como clientes y servidores al mismo tiempo respecto a los demás nodos de 
+la red. 
+
+Normalmente este tipo de redes se implementan como redes superpuestas construidas 
+en la capa de aplicación de redes públicas como Internet.
+
+Las redes peer-to-peer aprovechan, administran y optimizan el uso del ancho de 
+banda de los demás usuarios de la red por medio de la conectividad entre los 
+mismos. Sin embargo, mientras el numero de nodos crezca más difícil será la 
+administración y la seguridad puede ser afectada, ya que si un nodo es infectado es 
+posible que pueda infectar a cada nodo de la red.
+
+Hola compitas, computas por el computo.
+Vamos por unas miches.
+Un emo se enamora de una furra y se chinga al publico de un streamer.
+AAAAAAHHHH un manjar.
+
+Los Adverb Clauses son Clauses dependientes, es necesario utilizar conjunciones 
+para conectarlas al resto de la oración. A estos se les llama Subordinating 
+Conjunction.
+
+Existen diferentes tipos de estas conjunciones: Tiempo, Razón, Condición, Lugar, 
+Propósito. 
+
+Existen varios tipos de Adverbial Clauses of Time, como son before, after, when, 
+while, untill, entre algunos otros. Para demostrar el tema y los ejemplos 
+explicaremos before y after.
+
+Para identificar las partes de las Complex Sentences, las llamaremos diferente, a 
+la Clause que es independiente la llamaremos Main Clause, a la que es dependiente 
+deberemos ver que Adverbal Clause esta utilizando ya que el nombre cambiara 
+dependiendo del contexto, si es de tiempo la llamaremos Time Clause, si es de 
+razón la llamaremos Reason Clause, etc.
+

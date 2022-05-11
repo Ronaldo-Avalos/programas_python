@@ -1,0 +1,200 @@
+¿Qué es Security Command Center?
+Es el servicio centralizado de informes de vulnerabilidades y amenazas de Google Cloud. Security Command Center ayuda a fortalecer la posición de seguridad mediante la evaluación de la superficie de ataque de datos y la seguridad, proporcionando inventario y descubrimiento de elementos, identificando errores de configuración, vulnerabilidades y amenazas, y ayudando a mitigar y solucionar los riesgos.
+Niveles de Security Command Center
+Existen dos niveles dependiendo de cuanto se pague.
+Nivel Standard
+* Security Health Analytics: En el nivel Standard, esta función proporciona un análisis de evaluación de vulnerabilidades administrado para Google Cloud, que puede detectar automáticamente las vulnerabilidades de mayor gravedad y las configuraciones incorrectas de tus recursos de Google Cloud.
+LEER  TODO DESDE AQUÍ PORFAVOR
+* Análisis personalizados de Web Security Scanner: En el nivel Standard, Web Security Scanner admite análisis personalizados de aplicaciones implementadas con URL públicas y direcciones IP que no están detrás de un firewall. Los análisis se configuran, administran y ejecutan manualmente para todos los proyectos y admiten un subconjunto de categorías en el proyecto OWASP Top Ten.
+* Asistencia para otorgar funciones de Identity and Access Management (IAM) a los usuarios a nivel de organización.
+* Acceso a servicios integrados de Google Cloud, que incluyen lo siguiente:
+o Cloud Data Loss Prevention descubre, clasifica y protege datos sensibles.
+o Google Cloud Armor protege las implementaciones de Google Cloud contra amenazas
+o La detección de anomalías identifica anomalías en la seguridad de los proyectos y las instancias de máquinas virtuales (VM), como posibles credenciales filtradas y minería de criptomonedas.
+* Se integra a Forseti Security, al kit de herramientas de seguridad de código abierto para Google Cloud y a las aplicaciones de administración de eventos e información de seguridad (SIEM) de terceros.
+
+Nivel Premium
+El nivel Premium incluye todas las funciones de nivel Standard, y agrega lo siguiente.
+* Event Threat Detection usa la inteligencia de amenazas, el aprendizaje automático y otros métodos avanzados para supervisar Cloud Logging y Google Workspace de tu organización y detectar las siguientes amenazas:
+o Software malicioso
+o Criptominería
+o Ataques de fuerza bruta a SSH
+o DoS Salientes
+o Otorgamiento anómalo de IAM
+o Robo de datos
+Event Threat Detection también identifica las siguientes amenazas de Google Workspace:
+o Contraseñas filtradas
+o Intentos de violación de las cuentas
+o Cambios en la configuración de la verificación en dos pasos
+o Cambios en la configuración de inicio de sesión único (SSO)
+o Ataques respaldados por el Gobierno
+* Container Threat Detection detecta los siguientes ataques al entorno de ejecución de los contenedores:
+o Se ejecutó el objeto binario añadido
+o Se cargó la biblioteca agregada
+o Secuencia de comandos maliciosa ejecutada
+o Shells inversas
+* La detección de amenazas de máquinas virtuales detecta las aplicaciones de minería de criptomonedas que se ejecutan dentro de las instancias de VM.
+* Estadísticas del estado de la seguridad: El nivel Premium incluye análisis de vulnerabilidades administrados para todos los detectores de estadísticas del estado de seguridad (más de 140) y proporciona supervisión de muchas prácticas recomendadas de la industria, así como de la supervisión del cumplimiento en todos los sectores tus recursos de Google Cloud. Estos resultados también se pueden consultar en un panel de cumplimiento y exportarse a archivos CSV administrables.
+En el nivel Premium, las estadísticas del estado de la seguridad incluyen la supervisión y los informes para los siguientes estándares:
+o CIS 1.2
+o CIS 1.1
+o CIS 1.0
+o PCI DSS v3.2.1
+o NIST 800 53
+o ISO 27001
+* Web Security Scanner en el nivel Premium incluye todas las funciones del nivel Estándar y los detectores adicionales que admiten categorías en los OWASP Top Ten.
+Web Security Scanner también agrega análisis administrados que se configuran automáticamente. En estos análisis, se identifican las siguientes vulnerabilidades de seguridad en tus apps de Google Cloud:
+o Secuencia de comandos entre sitios (XSS)
+o Inyección Flash
+o Contenido mixto
+o Contraseñas en texto claro
+o Uso de bibliotecas de JavaScript inseguras
+* Asistencia para otorgar funciones de IAM a los usuarios a niveles de organización, carpeta y proyecto.
+* Exportaciones continuas, que administran automáticamente la exportación de nuevos resultados a Pub/Sub.
+Fortalece la posición de seguridad
+Security Command Center funciona con Cloud Asset Inventory para proporcionar visibilidad completa de la infraestructura y los recursos de Google Cloud, también conocidos como elementos. Los servicios integrados, Security Health Analytics, Event Threat Detection, Container Threat Detection y Web Security Scanner, usan casi 200 módulos de detección que supervisan y analizan de forma continua tus elementos, aplicaciones web y transmisiones de Cloud Logging, los registros de Google Workspace y Grupos de Google.
+Gracias a la tecnología de inteligencia de amenazas, el aprendizaje automático y las estadísticas únicas de Google sobre la arquitectura de Google Cloud, Security Command Center detecta vulnerabilidades, configuraciones incorrectas y amenazas, así como infracciones de cumplimiento casi en tiempo real. Los resultados de seguridad y los informes de cumplimiento te ayudan a clasificar y priorizar los riesgos, y proporcionan instrucciones de solución verificadas, así como sugerencias de expertos para responder a los resultados.
+En la siguiente figura, se ilustran los servicios principales y las operaciones en Security Command Center.
+
+Amplio inventario con recursos, datos y servicios
+Security Command Center transfiere datos sobre elementos nuevos, modificados y borrados de Cloud Asset Inventory, lo que supervisa de forma continua los elementos del entorno de nube. Security Command Center admite un gran subconjunto de elementos de Google Cloud. Para la mayoría de los elementos, los cambios de configuración, incluidas las políticas de IAM y de la organización, se detectan casi en tiempo real. Puedes identificar los cambios en tu organización con rapidez y responder preguntas como las siguientes:
+* ¿Cuántos proyectos tienes y cuántos proyectos son nuevos?
+* ¿Qué recursos de Google Cloud se implementan o usan, como las máquinas virtuales (VM) de Compute Engine, los buckets de Cloud Storage o las instancias de App Engine?
+* ¿Cuál es su historial de implementaciones?
+* Cómo organizar, anotar, buscar, seleccionar, filtrar y ordenar en las siguientes categorías:
+o Recursos y propiedades de los recursos
+o Marcas de seguridad, que te permiten anotar recursos o resultados en Security Command Center
+o Período
+Security Command Center siempre conoce el estado actual de los elementos compatibles y, en Google Cloud Console o la API de Security Command Center, te permite revisar análisis históricos de descubrimiento para comparar elementos entre puntos. También puedes buscar elementos con poco uso, como máquinas virtuales o direcciones IP inactivas.
+Estadísticas practicas de seguridad
+Los servicios integrados de Security Command Center supervisan de forma continua tus elementos y registros para detectar indicadores de compromiso y cambios en la configuración que coincidan con amenazas, vulnerabilidades y configuraciones incorrectas conocidas. A fin de proporcionar contexto para los incidentes, los resultados se enriquecen con información de las siguientes fuentes:
+* Chronicle, un servicio de Google Cloud que transfiere resultados de Event Threat Detection y te permite investigar amenazas y alternar por entidades relacionadas en un cronograma unificado
+* VirusTotal, un servicio que es propiedad de Alphabet y proporciona contexto sobre archivos, URL, dominios y direcciones IP potencialmente maliciosos.
+* Framework de MITRE ATT&CK, que explica las técnicas para ataques a los recursos de la nube y proporciona orientación para su solución
+* Registros de auditoría de Cloud (registros de actividad del administrador y registros de acceso a los datos)
+Recibes notificaciones de resultados nuevos casi en tiempo real, lo que permite a que tus equipos de seguridad recopilen datos, identifiquen amenazas y tomen medidas al respecto antes de que se generen daños o pérdidas empresariales.
+Con un panel centralizado y una API sólida, puedes hacer lo siguiente con rapidez:
+* Responde preguntas como estas:
+o ¿Qué direcciones IP están abiertas al público?
+o ¿Qué imágenes se ejecutan en tus VM?
+o ¿Hay evidencia de que tus VM se usan para la minería de criptomonedas o cualquier otra operación abusiva?
+o ¿Qué cuentas de servicio se agregaron o quitaron?
+o ¿Cómo se configuran los firewalls?
+o ¿Qué buckets de almacenamiento contienen información de identificación personal (PII) o datos sensibles? Esta función requiere la integración en Cloud Data Loss Prevention.
+o ¿Qué aplicaciones en la nube están expuestas a las vulnerabilidades de las secuencias de comandos entre sitios (XSS)?
+o ¿Algunos de mis buckets de Cloud Storage están abiertos a Internet?
+* Toma medidas para proteger tus activos:
+o Implementa pasos de solución verificados para las configuraciones incorrectas de elementos y las infracciones de cumplimiento.
+o Combina la inteligencia de amenazas de Google Cloud y proveedores externos, como Palo Alto Networks, para proteger mejor tu empresa de las amenazas de capas de procesamiento costosas.
+o Asegúrate de que las políticas de IAM adecuadas estén implementadas y obtén alertas cuando las políticas se configuren de forma incorrecta o cambien de manera inesperada.
+o Integra los resultados de tus propias fuentes o de fuentes externas para recursos de Google Cloud, híbridos o de múltiples nubes. Para obtener más información, consulta Agrega un servicio de seguridad externo.
+o Responde a las amenazas en tu entorno de Google Workspace y a los cambios no seguros en Grupos de Google.
+Las funciones de Security Command Center se otorgan a nivel de organización, carpeta o proyecto. Tu capacidad para ver, editar, crear o actualizar hallazgos, elementos, fuentes de seguridad y marcas de seguridad depende del nivel para el que se te otorga acceso. Para obtener más información sobre las funciones de Security Command Center, consulta Control de acceso.
+Mantén el cumplimiento de los estándares de la industria
+Los informes de cumplimiento están disponibles como parte de las estadísticas del estado de la seguridad. La mayoría de los detectores del servicio se asignan a uno o más de los siguientes estándares de cumplimiento:
+* CIS Google Cloud Computing Foundations Benchmark v1.2.0 (CIS Google Cloud Foundation 1.2)
+* CIS Google Cloud Computing Foundations Benchmark v1.1.0 (CIS Google Cloud Foundation 1.1)
+* CIS Google Cloud Computing Foundations Benchmark v1.0.0 (CIS Google Cloud Foundation 1.0)
+* Payment Card Industry Data Security Standard 3.2.1
+* National Institute of Standards and Technology 800-53
+* International Organization for Standardization 27001
+* Open Web Application Security Project (OWASP) Top Ten
+Las estadísticas del estado de la seguridad evalúan tu posición de seguridad de forma continua en función de los estándares de cumplimiento. Además, Security Command Center facilita las siguientes acciones:
+* Supervisa y resuelve las vionlaciones de cumplimiento asociados con los resultados.
+* Integra eventos de Cloud Audit Logging para Compute Engine, los servicios de herramientas de redes, Cloud Storage, IAM y la autorización binaria. Esto te ayudará a cumplir con los requisitos reglamentarios o a proporcionar un registro de auditoría mientras se investigan los incidentes.
+* Si te suscribes a Security Command Center Premium, obtendrás opciones adicionales de informes y exportación para garantizar que todos tus recursos cumplan con los requisitos de cumplimiento.
+Plataforma flexible para satisfacer tus necesidades de seguridad
+Security Command Center incluye opciones de integración que te permiten mejorar la utilidad del servicio para satisfacer tus necesidades de seguridad en constante evolución:
+* Usa Pub/Sub a fin de exportar los resultados a Splunk o a otras SIEM para su análisis.
+* Usa Pub/Sub y Cloud Functions para solucionar resultados de forma rápida y automática.
+* Accede a herramientas de código abierto para expandir la funcionalidad y automatizar las respuestas.
+* Integra las herramientas de seguridad de Google Cloud, incluidas las siguientes:
+o Chronicle
+o Detección de anomalías
+o Autorización binaria
+o Cloud DLP
+o Google Cloud Armor
+o Forseti
+o Phishing Protection
+o Administrador de riesgos
+o VM Manager
+* Integra en soluciones de seguridad de socios externos:
+o Las estadísticas de seguridad de Google Cloud de los productos de socios se agregan en Security Command Center y puedes usarlas en sistemas y flujos de trabajo existentes.
+Esto ya a sido revisado 
+Ventajas
+* Disfruta de una visibilidad y un control centralizados: Se puede conocer el numero de proyectos que se tienen, consultar que recursos se han desplegado y gestionar las cuentas de servicio que se han añadido o quitado.
+* Corrige los errores de configuración y las infracciones del cumplimiento: Se detectan configuraciones de seguridad erróneas e infracciones del cumplimiento de los recursos de Google Cloud, y proporciona recomendaciones útiles para resolverlas.
+* Detecta amenazas que ponen en riesgo los recursos de Google Cloud: Se utilizan los registros y la tecnología exclusiva de Google para descubrir amenazas que ponen en riesgo los recursos. También se puede usar la instrumentación a nivel de kernel para detectar posibles riesgos en los contenedores.
+Características principales
+* Descubrimiento e inventario de recursos: Se descubre y consulta casi en tiempo real los recursos de varias aplicaciones de Cloud. Se revisa el historial de procesos de descubrimiento para localizar recursos nuevos, modificarlos o eliminarlos.
+* Prevencion de amenazas: Conoce el estado de seguridad de los recursos de Google Cloud. Detecta las vulnerabilidades mas habituales que pueden poner en riesgo las aplicaciones web, como las de tipo cross-site scripting o las bibliotecas obsoletas, que se ejecuten en App Engine, GKE y Compute Engine. Para corregir el recurso afectado solo se hace clic y se siguen los pasos indicados.
+* Detección de amenazas: Utiliza los registros que se ejecutan en Google Cloud a escala para identificar amenazas. Detecta algunos de los ataques a contenedores mas habituales, incluidos los binarios sospechosos, las bibliotecas sospechosas y el Shell inverso.
+* Monitorizacion continua de requisitos de cumplimiento: Revisa y exporta tus informes de cumplimiento para asegurarte de que todos tus recursos cumplen sus requisitos con la monitorización de cumplimiento del PCI-DSS y del CIS, así como de otros estándares.
+* API REST y SIEM: Aprovecha las ventajas de la API REST de Security Command Center para disfrutar de una integración sencilla con tus sistemas y flujos de trabajo de seguridad actuales.
+* Monitorizacion del control de acceso: Desde el primer momento, puedes consultar las políticas de gestión de identidades y accesos de tus recursos en la nube.
+* Descubrimiento de datos sensibles: Averigua qué segmentos de almacenamiento contienen datos sensibles y regulados con la API DLP de Cloud.
+* Notificaciones y soluciones en tiempo real: Recibe notificaciones sobre resultados nuevos o actualizaciones de los resultados en cuestión de minutos, y busca soluciones oportunas.
+* Registros de auditoria: La integración de los eventos de los registros de auditoría de Cloud asociados a las aplicaciones de Cloud y la autorización binaria en Security Command Center te permite cumplir los requisitos normativos o proporcionar un seguimiento de la auditoría durante la investigación de un incidente.
+¿Qué es?
+Blogger es una herramienta gratuita integrada a Google que permite la creación y gestión de blogs, ya sean personales o corporativos. Es una de las opciones más usadas por los que comienzan con la tarea de producir contenidos web.
+Los blogs creados con esta herramienta son hospedados por el mismo Google, en el subdominio blogspot.com. Cada cuenta de Google permite la creación de hasta 100 blogs.
+
+Características
+Entre las características tenemos:
+* Editor de entradas, que pueden ser programadas. Adición de imágenes y videos a través del editor de entradas.
+* Diseñador de plantillas, que permite personalizar el aspecto del blog sin tener conocimientos de CSS o HTML.
+* Publicación en dominios personalizados.
+* Acceso publico o restringido al blog.
+* Archivo anual, mensual, semanal o diario de entradas del blog.
+* Plantillas para dispositivos móviles.
+* Comentarios opcionales de entradas y paginas del blog, con respuestas segundo nivel.
+* Paginas asíncronas con contenido estático.
+* Un visualizador nativo de fotografías para las publicaciones del blog, Lightbox.
+* Metatags de descripción y rastreo de robots para el blog.
+* Pagina de error 404 personalizada, redireccionamiento de URL 301 y 302 personalizados y archivo robots.txt personalizado.
+* Integración con aplicaciones de terceros, así como una API de datos para desarrollar aplicaciones propias.
+Además, como en todo sistema se tienen limitaciones como son:
+* Las paginas individuales, como la pagina principal o las paginas de archivos, en las que se suelen mostrar varias entradas del blog, tienen un limite de 1 Mb de tamaño.
+* Aunque no se menciona en las guías oficiales, existe un limite de 5000 comentarios por entrada.
+* En imágenes se tienen un limite de 1 Gb de almacenamiento compartido con Google Fotos.
+* Un blog puede tener hasta 100 miembros con roles de administradores o autores.
+* Se pueden poner hasta 2000 etiquetas únicas por blog y 20 etiquetas o 200 caracteres por entrada en blog.
+* La descripción del blog esta limitada a 500 caracteres, sin código HTML.
+
+
+Ventajas y desventajas
+Ventajas:
+* Creación de blogs en minutos.
+* Servidor y dominio incluidos.
+* Conexión con Adsense.
+* Gestión de comentarios.
+* Disponibilidad de plantillas.
+* Importación y exportación de contenidos.
+* Se pueden subir recursos multimedia.
+* Uso de gadgets.
+* Múltiples idiomas.
+* Seguridad contra ataques,
+Desventajas:
+* Baja velocidad de carga.
+* Poca capacidad de crecimiento, porque solo se pueden usar las características que ofrece la plataforma.
+* Personalización limitada.
+* Si se cambia de dominio se pierde posicionamiento.
+* Puede haber cierre sin previo aviso si se rompe alguna de las políticas.
+
+Historia, versiones
+Fue lanzado en septiembre de 1998 por Pyra Labs, siendo una de las primeras herramientas de publicación de bitácora en línea.
+En el 2003 Google compra Pyra Labs y por tanto también se hace con el control de Blogger. Poco tiempo después las llamadas características premium, que anteriormente eran de paga se abrirían a todos los usuarios.
+El 9 de mayo de 2004, Blogger fue relanzado con nuevas plantillas de diseño basadas en CSS, entre otras mejoras.
+En 2010 se introdujeron novedades entre las que se encuentra el diseñador de plantillas, que permite cambiar el diseño de la pagina sin necesidad de saber HTML o CSS.
+Por último, en 2012 se presentaron una serie de funcionalidades para mejorar el posicionamiento web. Además, los servidores de Blogger realizan redireccionamientos de dominio de segundo nivel, a dominios de segundo y tercer nivel por país de acceso, esto con el propósito de mejorar la administración local de contenidos que puedan violar las legislaciones locales, así como evitar intentos de censura.
+
+Competencia que tiene
+Su principal competidor es WordPress.
+
+Como crear un blog
+1. Acceder a Blogger.com y hacer clic en “Crear un blog”, haremos login con nuestra cuenta de Google o con un correo Gmail.
+2. Daremos clic en “Crear nuevo blog”.
+3. Escogemos el nombre del blog, el URL y el tema, hay que tener cuidado porque solo el tema puede ser cambiado después.
+4. En caso de que queramos comprar un dominio propio se puede hacer con Google Domains, de lo contrario simplemente damos clic en “no, gracias”.
+5. En este punto el blog esta creado y solo nos faltaría empezar a crear contenido desde “Nueva publicación”.
+
