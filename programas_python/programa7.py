@@ -1,6 +1,4 @@
-'''
-Oscar Dalí Nattaniel Romero Raygoza    6°B    ICI
-'''
+
 
 from distutils import archive_util
 import re
