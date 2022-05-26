@@ -1,9 +1,7 @@
 '''
-Oscar Dalí Nattaniel Romero Raygoza    6°B    ICI
-
 El programa consiste en leer dos documentos de texto .txt
 Cada documento debe tener tres parrafos como minimo
-    ...Debe mostrar cuantas lineas con texto y cuantas lineas vacias tiene cada doc
+..Debe mostrar cuantas lineas con texto y cuantas lineas vacias tiene cada doc
     ...Eliminar los simbolos de puntuacion
     ...Muestre las palabras que contiene cada documento de manera ordenada.
     ...Muestre cuantas palabras tiene cada documento
