@@ -1,6 +1,3 @@
-'''
-Oscar Dalí Nattaniel Romero Raygoza    6°B    ICI
-'''
 
 carpeta_nombre="C:\\Users\\xdbmo\\Desktop\\Mi_Carpeta\\UdeC\\Semestre_6\\OP1 - Procesamiento del lenguaje natural\\Programas\\Docs\\"
 
