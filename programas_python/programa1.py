@@ -1,6 +1,3 @@
-'''
-Oscar Dalí Nattaniel Romero Raygoza    6°B    ICI
-'''
 
 print("Hola MUNDO")
 print("Ingenieria en Computo Inteligente")
